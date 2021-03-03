@@ -1,6 +1,6 @@
-#unsolved
+
 def cmp(elem):
-    return [elem[1], elem[0]]
+    return [-elem[1], elem[0]]
 
 def printMean(lis):
     print(format(sum(lis) / len(lis), '.1f'))
